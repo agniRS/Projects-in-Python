@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+#This program detects if an input sequence is a biological pallindrome.Biological palindromes are self-complimentary sequences.  E.g., AACAGTTTATAAACTGTT (AACAGTTTA and its reverse compliment TAAACTGTT) or ACACTGT
 str=input()
 test=list(str)
 l=len(test)
