@@ -1,4 +1,5 @@
 #!/bin/env python3
+#A  k-mer  is  a sequence of length k; for example, k-mers of length 2 (k=2) for DNA are AA, AT, AG, AC, CC, CT, CG, CA, TT, TA, TG, TC, GG, GC, GT, and GA
 fileloc=input("enter file location")
 file=open(fileloc,'r')
 seq=file.read()
