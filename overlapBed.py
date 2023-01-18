@@ -1,4 +1,5 @@
 #!/usr/bin/python env3
+#finds overlapping elements  to find functional elements that overlap with  other  elements,  e.g.  transcription  start  sites  contained  in  transposable  elements,  predicted transcription  factor  binding  sites  within  DNase  hypersensitivity  sites,  or  even  some  set  of  genes  or horizontally transferred regions.  Maybe we find some peaks in our ChIP-seq data and we want to see  if  those  overlap  with  known  enhancers,  or  perhaps  we  have  a  set  of  SNPs  and  we  would  like  to know what genes they fall in.
 import argparse
 import sys
 import re
