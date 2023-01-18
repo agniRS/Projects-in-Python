@@ -1,4 +1,5 @@
 #!/bin/env python3
+#Takes in one argument k: a column number, and print just that column on stdout (your terminal screen). 
 f='/home/a/test2.txt'
 f=input()
 fileloc=open(f,'r')
